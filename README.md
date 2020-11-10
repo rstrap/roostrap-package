@@ -19,3 +19,19 @@ If you have made the debian package and want it to be included in the official r
 
 repo: https://github.com/rstrap/repo
 
+after doing this and pull request is accepted:
+
+to install your package:
+
+rstrap -install --${package_name}
+
+then...
+
+automatically:
+
+wget ${install-script} saved to /data/data/com.termux/files/rootstrap/install-scripts/
+
+wget ${uninstall-script} saved to /data/data/com.termux/files/rootstrap/uninstall-scripts/
+
+bash path to install script///
+
