@@ -1,3 +1,4 @@
+```
 FILE=/data/data.com.termux/files/usr/.rstrap
 if test -f "$FILE"; then
     echo "$FILE exists meaning rootstrap is installed..."
@@ -11,3 +12,4 @@ else
       install for legacy devices at https://github.com/rstrap/rootstrap/
       
 fi
+```
